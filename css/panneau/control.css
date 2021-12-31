@@ -1,0 +1,13 @@
+.panneau {
+    background-color: black;
+    width: 25rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(68, 68, 68);
+}
+
+.panneau h2 {
+    color: rgb(68, 68, 68);
+}

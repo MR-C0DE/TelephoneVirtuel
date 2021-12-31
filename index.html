@@ -7,10 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/panneau/control.css">
+    <title>Telephone Virtuel</title>
 </head>
 
 <body>
+    <header>
+
+        <h1 style="display: none;">Telephone Virtuel</h1>
+
+    </header>
+
+    <main>
+        <div class="outil">
+
+            <div class="panneau">
+
+                <h2>Telephone/Panneau</h2>
+
+                <div class="bouton">
+
+                    <p><input type="submit" name="demarre" class="demarrage" value="Démarrer"></p>
+
+                    <p>
+                        <span>Activez et desactivez le son</span>
+                        <label for="son">
+
+                            <input type="checkbox" name="son" id="son">
+
+                        </label>
+                    </p>
+
+                    <p>
+                        <span>Volume</span><br>
+                        <input type="range" name="volume" id="volume" min="0" max="10">
+                    </p>
+
+                </div>
+                <div>
+                    <img src="./img/panneau/inf.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="Telephone">
+
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
 
 </body>
 
